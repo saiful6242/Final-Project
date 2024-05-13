@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Information</title>
+</head>
+<body>
+    <h2>Submitted Information</h2>
+    <p><strong>Name:</strong> <span id="displayName"></span></p>
+    <p><strong>Age:</strong> <span id="displayAge"></span></p>
+    <p><strong>Email:</strong> <span id="displayEmail"></span></p>
+    <p><strong>Phone:</strong> <span id="displayPhone"></span></p>
+    <p><strong>Street:</strong> <span id="displayStreet"></span></p>
+    <p><strong>City:</strong> <span id="displayCity"></span></p>
+    <p><strong>State:</strong> <span id="displayState"></span></p>
+    <p><strong>Zip:</strong> <span id="displayZip"></span></p>
+    <p><strong>Gender:</strong> <span id="displayGender"></span></p>
+    <p><strong>Start Month:</strong> <span id="displayStartMonth"></span></p>
+    <p><strong>Card Owner:</strong> <span id="displayOwner"></span></p>
+    <p><strong>Card Number:</strong> <span id="displayCardNumber"></span></p>
+    <p><strong>CVV:</strong> <span id="displayCVV"></span></p>
+    <p><strong>Expiry Month:</strong> <span id="displayExpiryMonth"></span></p>
+    <p><strong>Expiry Year:</strong> <span id="displayExpiryYear"></span></p>
+
+    <script>
+        // Retrieve data from session storage
+        var name = sessionStorage.getItem('name');
+        var age = sessionStorage.getItem('age');
+        var email = sessionStorage.getItem('email');
+        var phone = sessionStorage.getItem('phone');
+        var street = sessionStorage.getItem('street');
+        var city = sessionStorage.getItem('city');
+        var state = sessionStorage.getItem('state');
+        var zip = sessionStorage.getItem('zip');
+        var gender = sessionStorage.getItem('gender');
+        var startMonth = sessionStorage.getItem('startMonth');
+        var owner = sessionStorage.getItem('owner');
+        var cardNumber = sessionStorage.getItem('cardNumber');
+        var cvv = sessionStorage.getItem('cvv');
+        var expiryMonth = sessionStorage.getItem('expiryMonth');
+        var expiryYear = sessionStorage.getItem('expiryYear');
+
+        // Display data
+        document.getElementById('displayName').textContent = name;
+        document.getElementById('displayAge').textContent = age;
+        document.getElementById('displayEmail').textContent = email;
+        document.getElementById('displayPhone').textContent = phone;
+        document.getElementById('displayStreet').textContent = street;
+        document.getElementById('displayCity').textContent = city;
+        document.getElementById('displayState').textContent = state;
+        document.getElementById('displayZip').textContent = zip;
+        document.getElementById('displayGender').textContent = gender;
+        document.getElementById('displayStartMonth').textContent = startMonth;
+        document.getElementById('displayOwner').textContent = owner;
+        document.getElementById('displayCardNumber').textContent = cardNumber;
+        document.getElementById('displayCVV').textContent = cvv;
+        document.getElementById('displayExpiryMonth').textContent = expiryMonth;
+        document.getElementById('displayExpiryYear').textContent = expiryYear;
+    </script>
+</body>
+</html>

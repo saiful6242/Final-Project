@@ -1,0 +1,81 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: rgb(34, 10, 10);
+    
+
+background-image: url('d2.jpeg');
+            background-size: cover; /* Cover the entire viewport */
+            background-position: left; /* Center the image */
+            background-repeat: no-repeat; /
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation Styles */
+nav {background-color: #520202; /* Red */
+    background-image: 
+    linear-gradient(to right, #045a05, #9c1006); /* Black to Green */
+background-position: left top, right top, center;
+background-repeat: no-repeat;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display:inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #a3f179;
+    text-decoration: none;
+}
+
+div.form{
+    font-size: 20px;
+    text-align: center;
+    color: #ecebeb;
+    background-color: rgba(1, 20, 4, 0.5);
+}
+p{
+    color: #001102;
+    background-color: rgba(203, 203, 210, 0.54);
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+input[type="submit"] {
+    width: 100px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#result {
+    margin-top: 20px;
+}
+
+footer{background-image: linear-gradient(to right, #113c12, #6e0a03)
+
+
+}
